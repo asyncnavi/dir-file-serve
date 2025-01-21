@@ -5,3 +5,10 @@ type route struct {
 	urlpath  string
 	data     []byte
 }
+
+
+func parseRoutes() {
+	var routes []route
+
+
+}

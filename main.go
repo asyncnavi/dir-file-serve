@@ -5,10 +5,12 @@ import (
 )
 
 
-var ROOT_FOLDER string
+var (
+	projectDir string
+)
 
 func init() {
-	ROOT_FOLDER = "./routes/"
+	projectDir = "./routes/"
 }
 
 func main() {
